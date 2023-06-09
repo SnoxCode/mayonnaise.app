@@ -1,0 +1,16 @@
+.footer {
+  padding: var(--padding) 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.link {
+  height: 20px;
+  width: 20px;
+}
+
+.notice {
+  color: var(--foreground);
+  margin-right: auto;
+  font-size: 0.9em;
+}

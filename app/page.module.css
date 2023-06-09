@@ -1,0 +1,49 @@
+.maincontainer {
+  background-color: var(--orange);
+  padding: var(--padding);
+  width: fit-content;
+  border-radius: var(--border-radius);
+}
+
+.h1 {
+  font-size: 2.3em;
+  font-weight: 900;
+  color: var(--black);
+}
+
+.text {
+  padding: 1.2em 0;
+  line-height: 1.3em;
+  font-weight: 500;
+  color: var(--foreground);
+}
+
+@media only screen and (min-width: 600px) {  
+  .h1 {
+    font-size: 3em;
+  }
+  .text {
+    font-size: 1.05em;
+  }
+}
+
+@media only screen and (min-width: 1400px) {  
+  .main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .cube {
+    border-radius: var(--border-radius);
+    background-color: var(--orange);
+    width: 500px;
+    height: 500px;
+    margin-right: 4rem;
+    color: var(--black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30em;
+    font-weight: 900;
+  }
+}

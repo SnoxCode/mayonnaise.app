@@ -1,0 +1,43 @@
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input, .button {
+  border-radius: var(--border-radius);
+  transition: 300ms;
+  padding: var(--padding);
+  outline: none;
+  background-color: var(--black);
+  color: var(--foreground);
+  max-width: 600px;
+}
+
+.input {
+  border: 3px solid var(--orange);
+  font-weight: 550;
+}
+
+.input:focus {
+  border: 3px solid var(--foreground);
+}
+
+.button {
+  border: 0;
+  margin-top: calc(1.2em / 2);
+  background-color: var(--orange);
+  color: var(--black);
+  font-weight: 700;
+  font-size: 1em;
+  font-family: "Inter";
+}
+
+.button:hover {
+  background-color: var(--foreground);
+}
+
+@media only screen and (min-width: 1400px) {
+  .input, .button {
+    width: 130%;
+  }
+}

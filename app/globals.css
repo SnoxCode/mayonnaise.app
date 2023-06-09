@@ -1,0 +1,45 @@
+:root {
+  --black: #13110e;
+  --orange: #c03b17;
+  --green: #21403a;
+  --foreground: #d6d1b6;
+
+  --border-radius: 10px;
+  --padding: 10px;
+}
+
+::selection {
+  background-color: color-mix(in srgb, var(--green) 80%, var(--foreground) 20%);
+}
+
+/* Removing Chromium scrollbar */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Removing Firefox scrollbar */
+html {
+  scrollbar-width: none;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  background-color: var(--black);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+}
+
+@media only screen and (min-width: 600px) {
+  body {
+    padding: 1rem 9rem;
+  }
+}
