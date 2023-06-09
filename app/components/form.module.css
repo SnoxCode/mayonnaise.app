@@ -29,7 +29,8 @@
   color: var(--black);
   font-weight: 700;
   font-size: 1em;
-  font-family: "Inter";
+  font-family: Inter;
+  cursor: pointer;
 }
 
 .button:hover {
