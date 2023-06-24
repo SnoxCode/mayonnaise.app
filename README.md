@@ -5,7 +5,7 @@ There is no real back-end database available, meaning that the submitted email _
 ## Screenshots
 
 This site was designed and built with the mobile first approach, meaning that the desktop version will have placeholders to fill out the empty space.
-![Desktop view](/desktop.png)![Mobile view](/public/mobile.png)
+![Desktop view](/public/desktop.png)![Mobile view](/public/mobile.png)
 
 ## Getting Started
 
