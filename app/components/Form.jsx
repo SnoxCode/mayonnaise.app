@@ -1,6 +1,6 @@
 'use client'
 
-import form from './Form.module.css'
+import form from './FormStyle.module.css'
 
 export default function Form() {
 
