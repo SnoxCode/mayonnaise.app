@@ -1,12 +1,12 @@
 # mayonnaise.app
-Mayonnaise.app is an imaginary "coming soon" web application that was created for the sake of trying out NextJS 13.4 and its `app` router.
-There is no real back-end available, meaning that the submitted email __won't__ be stored!
+Mayonnaise. is an imaginary web application that was created for the sake of trying out NextJS 13.4 and its `app` router.
+There is no real back-end database available, meaning that the submitted email __won't__ be stored! Feel free to use a fake/random email to test it out.
 
 ## Screenshots
-![Desktop view](/app/opengraph-image.png)
-![Mobile view](/public/mobile.png)
 
-# NextJS 13.4 Default README
+This site was designed and built with the mobile first approach, meaning that the desktop version will have placeholders to fill out the empty space.
+![Desktop view](/desktop.png)![Mobile view](/public/mobile.png)
+
 ## Getting Started
 
 First, run the development server:
@@ -33,9 +33,3 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

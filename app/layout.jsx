@@ -6,15 +6,21 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Mayonnaise',
-  description: 'Mayonnaise is a web application that happens to be accessible 24/7 from anywhere. Well, you do require a stable internet connection.',
+  title: 'Mayonnaise. Saucery. Perfection.',
+  description: 'Mayonnaise is not just a web application, it is more and better than that. It is the sauce.',
   metadataBase: new URL('https://mayonnaise.app'),
   alternates: {
-    canonical: '/',
-    languages: {
-      'en-US': '/en-US',
-    },
+    canonical: '/'
   },
+  openGraph: {
+    siteName: 'Mayonnaise.',
+    type: 'website',
+    images: '/cover.png'
+  },
+  twitter: { 
+    card: 'summary_large_image'
+  },
+  themeColor: '#c03b17'
 }
 
 export default function RootLayout({ children }) {

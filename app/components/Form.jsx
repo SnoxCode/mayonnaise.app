@@ -1,6 +1,6 @@
 'use client'
 
-import form from './form.module.css'
+import form from './Form.module.css'
 
 export default function Form() {
 
@@ -32,7 +32,6 @@ export default function Form() {
       button.setAttribute('disabled', '')
 
       input.style.backgroundColor = '#c03b17'
-      input.style.color = '#13110e'
       input.value = ''
       input.placeholder = ''
 
