@@ -2,9 +2,12 @@
 Mayonnaise. is an imaginary web application that was created for the sake of trying out NextJS 13.4 and its `app` router.
 There is no real back-end database available, meaning that the submitted email __won't__ be stored! Feel free to use a fake/random email to test it out.
 
+The entire application was built with JS (JSX) and vanilla/plain CSS.
+
 ## Screenshots
 
 This site was designed and built with the mobile first approach, meaning that the desktop version will have placeholders to fill out the empty space.
+
 ![Desktop view](/public/desktop.png)![Mobile view](/public/mobile.png)
 
 ## Getting Started
