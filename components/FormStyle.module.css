@@ -3,7 +3,8 @@
   flex-direction: column;
 }
 
-.input, .button {
+.input,
+.button {
   border-radius: var(--border-radius);
   transition: 300ms;
   padding: var(--padding);
@@ -38,7 +39,8 @@
 }
 
 @media only screen and (min-width: 1400px) {
-  .input, .button {
+  .input,
+  .button {
     width: 130%;
   }
 }
